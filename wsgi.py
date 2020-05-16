@@ -1,4 +1,5 @@
-from flask import flask
+from flask import Flask
+
 application = flask(__name__)
 
 @application.route('/')

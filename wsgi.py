@@ -2,7 +2,7 @@ from flask import flask
 application = flask(__name__)
 
 @application.route('/')
-def hello();
+def hello():
 	return "Hello World"
 
 if __name__ == "__main__";
